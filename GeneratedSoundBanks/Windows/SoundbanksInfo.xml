@@ -1,0 +1,570 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
+	<RootPaths>
+		<ProjectRoot>E:\GitHub\WWISE-PROJECT-GUNS\</ProjectRoot>
+		<SourceFilesRoot>E:\GitHub\WWISE-PROJECT-GUNS\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GitHub\WWISE-PROJECT-GUNS\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>E:\GitHub\WWISE-PROJECT-GUNS\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="173144853" Language="SFX" Hash="905782099">
+			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_GUNS_SFX</ObjectPath>
+			<ShortName>RXD_GUNS_SFX</ShortName>
+			<Path>RXD_GUNS_SFX.bnk</Path>
+			<IncludedEvents>
+				<Event Id="2691862947" Name="guns_tracers_tracer_hard" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_hard">
+					<IncludedMemoryFiles>
+						<File Id="219156426" Language="SFX">
+							<ShortName>tracer_main.wav</ShortName>
+							<Path>SFX/tracer_main_3F75BDB9.wem</Path>
+						</File>
+						<File Id="330446095" Language="SFX">
+							<ShortName>tracer_main_02.wav</ShortName>
+							<Path>SFX/tracer_main_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="768469031" Language="SFX">
+							<ShortName>tracer_main_03.wav</ShortName>
+							<Path>SFX/tracer_main_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2138103848" Name="guns_tracers_tracer_light" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_light">
+					<IncludedMemoryFiles>
+						<File Id="219156426" Language="SFX">
+							<ShortName>tracer_main.wav</ShortName>
+							<Path>SFX/tracer_main_3F75BDB9.wem</Path>
+						</File>
+						<File Id="330446095" Language="SFX">
+							<ShortName>tracer_main_02.wav</ShortName>
+							<Path>SFX/tracer_main_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="768469031" Language="SFX">
+							<ShortName>tracer_main_03.wav</ShortName>
+							<Path>SFX/tracer_main_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1069259577" Name="guns_tracers_tracer_medium" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_medium">
+					<IncludedMemoryFiles>
+						<File Id="219156426" Language="SFX">
+							<ShortName>tracer_main.wav</ShortName>
+							<Path>SFX/tracer_main_3F75BDB9.wem</Path>
+						</File>
+						<File Id="330446095" Language="SFX">
+							<ShortName>tracer_main_02.wav</ShortName>
+							<Path>SFX/tracer_main_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="768469031" Language="SFX">
+							<ShortName>tracer_main_03.wav</ShortName>
+							<Path>SFX/tracer_main_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2182468074" Name="guns_tracers_tracer_tow" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_tow">
+					<IncludedMemoryFiles>
+						<File Id="219156426" Language="SFX">
+							<ShortName>tracer_main.wav</ShortName>
+							<Path>SFX/tracer_main_3F75BDB9.wem</Path>
+						</File>
+						<File Id="330446095" Language="SFX">
+							<ShortName>tracer_main_02.wav</ShortName>
+							<Path>SFX/tracer_main_02_3F75BDB9.wem</Path>
+						</File>
+						<File Id="768469031" Language="SFX">
+							<ShortName>tracer_main_03.wav</ShortName>
+							<Path>SFX/tracer_main_03_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="765951329" Name="RXD_AUTO_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_NPC">
+					<IncludedMemoryFiles>
+						<File Id="49084645" Language="SFX">
+							<ShortName>Automatic_outside3_3times.wav</ShortName>
+							<Path>SFX/Automatic_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="555909491" Language="SFX">
+							<ShortName>Automatic_outside2_3times.wav</ShortName>
+							<Path>SFX/Automatic_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1044366374" Language="SFX">
+							<ShortName>Automatic_outside_3times.wav</ShortName>
+							<Path>SFX/Automatic_outside_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3537199447" Name="RXD_AUTO_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_PC">
+					<IncludedMemoryFiles>
+						<File Id="64395428" Language="SFX">
+							<ShortName>Auto_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Auto_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="199211001" Language="SFX">
+							<ShortName>Auto_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Auto_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="289783733" Language="SFX">
+							<ShortName>Auto_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Auto_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="302054128" Language="SFX">
+							<ShortName>Auto_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Auto_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="673114420" Language="SFX">
+							<ShortName>Auto_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Auto_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1042965216" Language="SFX">
+							<ShortName>Auto_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Auto_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1833493041" Name="RXD_CANNONADE_LARGE" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_LARGE">
+					<IncludedMemoryFiles>
+						<File Id="297070261" Language="SFX">
+							<ShortName>589914796.wav</ShortName>
+							<Path>SFX/589914796_3F75BDB9.wem</Path>
+						</File>
+						<File Id="341471234" Language="SFX">
+							<ShortName>518735555.wav</ShortName>
+							<Path>SFX/518735555_3F75BDB9.wem</Path>
+						</File>
+						<File Id="363380493" Language="SFX">
+							<ShortName>926051147.wav</ShortName>
+							<Path>SFX/926051147_3F75BDB9.wem</Path>
+						</File>
+						<File Id="722662812" Language="SFX">
+							<ShortName>829902618.wav</ShortName>
+							<Path>SFX/829902618_3F75BDB9.wem</Path>
+						</File>
+						<File Id="925383849" Language="SFX">
+							<ShortName>829929130.wav</ShortName>
+							<Path>SFX/829929130_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2470742873" Name="RXD_CANNONADE_MEDIUM" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_MEDIUM">
+					<IncludedMemoryFiles>
+						<File Id="297070261" Language="SFX">
+							<ShortName>589914796.wav</ShortName>
+							<Path>SFX/589914796_3F75BDB9.wem</Path>
+						</File>
+						<File Id="341471234" Language="SFX">
+							<ShortName>518735555.wav</ShortName>
+							<Path>SFX/518735555_3F75BDB9.wem</Path>
+						</File>
+						<File Id="363380493" Language="SFX">
+							<ShortName>926051147.wav</ShortName>
+							<Path>SFX/926051147_3F75BDB9.wem</Path>
+						</File>
+						<File Id="722662812" Language="SFX">
+							<ShortName>829902618.wav</ShortName>
+							<Path>SFX/829902618_3F75BDB9.wem</Path>
+						</File>
+						<File Id="925383849" Language="SFX">
+							<ShortName>829929130.wav</ShortName>
+							<Path>SFX/829929130_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1896691065" Name="RXD_CANNONADE_SMALL" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_SMALL">
+					<IncludedMemoryFiles>
+						<File Id="297070261" Language="SFX">
+							<ShortName>589914796.wav</ShortName>
+							<Path>SFX/589914796_3F75BDB9.wem</Path>
+						</File>
+						<File Id="341471234" Language="SFX">
+							<ShortName>518735555.wav</ShortName>
+							<Path>SFX/518735555_3F75BDB9.wem</Path>
+						</File>
+						<File Id="363380493" Language="SFX">
+							<ShortName>926051147.wav</ShortName>
+							<Path>SFX/926051147_3F75BDB9.wem</Path>
+						</File>
+						<File Id="722662812" Language="SFX">
+							<ShortName>829902618.wav</ShortName>
+							<Path>SFX/829902618_3F75BDB9.wem</Path>
+						</File>
+						<File Id="925383849" Language="SFX">
+							<ShortName>829929130.wav</ShortName>
+							<Path>SFX/829929130_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3511647417" Name="RXD_HUGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_NPC">
+					<IncludedMemoryFiles>
+						<File Id="440993816" Language="SFX">
+							<ShortName>Huge_outside2_3times.wav</ShortName>
+							<Path>SFX/Huge_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="542186464" Language="SFX">
+							<ShortName>Huge_outside3_3times.wav</ShortName>
+							<Path>SFX/Huge_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="607228210" Language="SFX">
+							<ShortName>Huge_outside_3times.wav</ShortName>
+							<Path>SFX/Huge_outside_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="4179778703" Name="RXD_HUGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_PC">
+					<IncludedMemoryFiles>
+						<File Id="50646593" Language="SFX">
+							<ShortName>Huge_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Huge_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="51444086" Language="SFX">
+							<ShortName>Huge_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Huge_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="284232642" Language="SFX">
+							<ShortName>Huge_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Huge_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="290565830" Language="SFX">
+							<ShortName>Huge_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Huge_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="567533711" Language="SFX">
+							<ShortName>Huge_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Huge_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="733111982" Language="SFX">
+							<ShortName>Huge_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Huge_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2044673626" Name="RXD_LARGE_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_NPC">
+					<IncludedMemoryFiles>
+						<File Id="52519965" Language="SFX">
+							<ShortName>Large_extra_outside2_3times.wav</ShortName>
+							<Path>SFX/Large_extra_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="426002069" Language="SFX">
+							<ShortName>Large_extra_outside_3times.wav</ShortName>
+							<Path>SFX/Large_extra_outside_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="594461856" Language="SFX">
+							<ShortName>Large_extra_outside3_3times.wav</ShortName>
+							<Path>SFX/Large_extra_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3966632014" Name="RXD_LARGE_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_PC">
+					<IncludedMemoryFiles>
+						<File Id="387276468" Language="SFX">
+							<ShortName>Large_Extra_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="402183433" Language="SFX">
+							<ShortName>Large_Extra_PC_Intside_new.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Intside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="612720532" Language="SFX">
+							<ShortName>Large_Extra_PC_Intside_new_2.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Intside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="666034385" Language="SFX">
+							<ShortName>Large_Extra_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="957084034" Language="SFX">
+							<ShortName>Large_Extra_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="982361629" Language="SFX">
+							<ShortName>Large_Extra_PC_Intside_new_3.wav</ShortName>
+							<Path>SFX/Large_Extra_PC_Intside_new_3_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1398263457" Name="RXD_LARGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_NPC">
+					<IncludedMemoryFiles>
+						<File Id="605021672" Language="SFX">
+							<ShortName>Large_outside2_3times.wav</ShortName>
+							<Path>SFX/Large_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="827654126" Language="SFX">
+							<ShortName>Large_outside3_3times.wav</ShortName>
+							<Path>SFX/Large_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="829711066" Language="SFX">
+							<ShortName>Large_outside_3times.wav</ShortName>
+							<Path>SFX/Large_outside_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="189652887" Name="RXD_LARGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_PC">
+					<IncludedMemoryFiles>
+						<File Id="45576879" Language="SFX">
+							<ShortName>Large_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Large_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="160994244" Language="SFX">
+							<ShortName>Large_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Large_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="165654205" Language="SFX">
+							<ShortName>Large_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Large_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="240846090" Language="SFX">
+							<ShortName>Large_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Large_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="384221221" Language="SFX">
+							<ShortName>Large_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Large_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="1067921026" Language="SFX">
+							<ShortName>Large_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Large_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1877308920" Name="RXD_MAIN_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_NPC">
+					<IncludedMemoryFiles>
+						<File Id="261820427" Language="SFX">
+							<ShortName>Main_extra_outside3_3times.wav</ShortName>
+							<Path>SFX/Main_extra_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="916208544" Language="SFX">
+							<ShortName>Main_extra_outside2_3times.wav</ShortName>
+							<Path>SFX/Main_extra_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="922901761" Language="SFX">
+							<ShortName>Main_extra_outside.wav</ShortName>
+							<Path>SFX/Main_extra_outside_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1855936340" Name="RXD_MAIN_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_PC">
+					<IncludedMemoryFiles>
+						<File Id="310490692" Language="SFX">
+							<ShortName>Main_Extra_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="431806308" Language="SFX">
+							<ShortName>Main_Extra_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="524611554" Language="SFX">
+							<ShortName>Main_Extra_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="670298216" Language="SFX">
+							<ShortName>Main_Extra_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="802693935" Language="SFX">
+							<ShortName>Main_Extra_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="931580144" Language="SFX">
+							<ShortName>Main_Extra_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Main_Extra_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3321651311" Name="RXD_MAIN_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_NPC">
+					<IncludedMemoryFiles>
+						<File Id="239798784" Language="SFX">
+							<ShortName>Main_outside3_3times.wav</ShortName>
+							<Path>SFX/Main_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="297070261" Language="SFX">
+							<ShortName>589914796.wav</ShortName>
+							<Path>SFX/589914796_3F75BDB9.wem</Path>
+						</File>
+						<File Id="341471234" Language="SFX">
+							<ShortName>518735555.wav</ShortName>
+							<Path>SFX/518735555_3F75BDB9.wem</Path>
+						</File>
+						<File Id="363380493" Language="SFX">
+							<ShortName>926051147.wav</ShortName>
+							<Path>SFX/926051147_3F75BDB9.wem</Path>
+						</File>
+						<File Id="390133019" Language="SFX">
+							<ShortName>Main_outside_3times.wav</ShortName>
+							<Path>SFX/Main_outside_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="678103091" Language="SFX">
+							<ShortName>Main_outside2_3times.wav</ShortName>
+							<Path>SFX/Main_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="722662812" Language="SFX">
+							<ShortName>829902618.wav</ShortName>
+							<Path>SFX/829902618_3F75BDB9.wem</Path>
+						</File>
+						<File Id="925383849" Language="SFX">
+							<ShortName>829929130.wav</ShortName>
+							<Path>SFX/829929130_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3533778469" Name="RXD_MAIN_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_PC">
+					<IncludedMemoryFiles>
+						<File Id="35461523" Language="SFX">
+							<ShortName>Main_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Main_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="46103599" Language="SFX">
+							<ShortName>Main_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Main_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="145365883" Language="SFX">
+							<ShortName>Main_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Main_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="202870754" Language="SFX">
+							<ShortName>Main_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Main_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="364169920" Language="SFX">
+							<ShortName>Main_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Main_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="414696105" Language="SFX">
+							<ShortName>Main_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Main_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2051267289" Name="RXD_MEDIUM_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_NPC">
+					<IncludedMemoryFiles>
+						<File Id="262457101" Language="SFX">
+							<ShortName>Medium_outside_3times.wav</ShortName>
+							<Path>SFX/Medium_outside_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="517278888" Language="SFX">
+							<ShortName>Medium_outside3_3times.wav</ShortName>
+							<Path>SFX/Medium_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="911044968" Language="SFX">
+							<ShortName>Medium_outside2_3times.wav</ShortName>
+							<Path>SFX/Medium_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3263607855" Name="RXD_MEDIUM_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_PC">
+					<IncludedMemoryFiles>
+						<File Id="175175973" Language="SFX">
+							<ShortName>Medium_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Medium_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="259864084" Language="SFX">
+							<ShortName>Medium_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Medium_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="305620338" Language="SFX">
+							<ShortName>Medium_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Medium_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="711723337" Language="SFX">
+							<ShortName>Medium_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Medium_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="870654447" Language="SFX">
+							<ShortName>Medium_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Medium_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="891658098" Language="SFX">
+							<ShortName>Medium_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Medium_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1338239369" Name="RXD_SMALL_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_NPC">
+					<IncludedMemoryFiles>
+						<File Id="278388571" Language="SFX">
+							<ShortName>Small_outside_3times.wav</ShortName>
+							<Path>SFX/Small_outside_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="812596545" Language="SFX">
+							<ShortName>Small_outside3_3times.wav</ShortName>
+							<Path>SFX/Small_outside3_3times_3F75BDB9.wem</Path>
+						</File>
+						<File Id="893936365" Language="SFX">
+							<ShortName>Small_outside2_3times.wav</ShortName>
+							<Path>SFX/Small_outside2_3times_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="1549326591" Name="RXD_SMALL_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_PC">
+					<IncludedMemoryFiles>
+						<File Id="12399934" Language="SFX">
+							<ShortName>Small_PC_Inside_new_2.wav</ShortName>
+							<Path>SFX/Small_PC_Inside_new_2_3F75BDB9.wem</Path>
+						</File>
+						<File Id="82244643" Language="SFX">
+							<ShortName>Small_PC_Outside_new_3.wav</ShortName>
+							<Path>SFX/Small_PC_Outside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="95438880" Language="SFX">
+							<ShortName>Small_PC_Inside_new.wav</ShortName>
+							<Path>SFX/Small_PC_Inside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="103031106" Language="SFX">
+							<ShortName>Small_PC_Outside_new.wav</ShortName>
+							<Path>SFX/Small_PC_Outside_new_3F75BDB9.wem</Path>
+						</File>
+						<File Id="196352906" Language="SFX">
+							<ShortName>Small_PC_Inside_new_3.wav</ShortName>
+							<Path>SFX/Small_PC_Inside_new_3_3F75BDB9.wem</Path>
+						</File>
+						<File Id="282973874" Language="SFX">
+							<ShortName>Small_PC_Outside_new_2.wav</ShortName>
+							<Path>SFX/Small_PC_Outside_new_2_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="2046310014" Name="RXD_TOW_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_TOW_NPC">
+					<IncludedMemoryFiles>
+						<File Id="1346035" Language="SFX">
+							<ShortName>407753211.wav</ShortName>
+							<Path>SFX/407753211_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251724739" Language="SFX">
+							<ShortName>507965225.wav</ShortName>
+							<Path>SFX/507965225_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="3629423298" Name="RXD_TOW_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_TOW_PC">
+					<IncludedMemoryFiles>
+						<File Id="1346035" Language="SFX">
+							<ShortName>407753211.wav</ShortName>
+							<Path>SFX/407753211_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251724739" Language="SFX">
+							<ShortName>507965225.wav</ShortName>
+							<Path>SFX/507965225_3F75BDB9.wem</Path>
+						</File>
+						<File Id="383360617" Language="SFX">
+							<ShortName>634050353.wav</ShortName>
+							<Path>SFX/634050353_3F75BDB9.wem</Path>
+						</File>
+						<File Id="686550656" Language="SFX">
+							<ShortName>60436895.wav</ShortName>
+							<Path>SFX/60436895_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="1419538075" Name="RTPC_ext_settings_volume_master_fx" ObjectPath="\Game Parameters\Settings\RTPC_ext_settings_volume_master_fx"/>
+			</GameParameters>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX" Hash="3325129555">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
