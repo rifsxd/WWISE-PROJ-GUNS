@@ -16,7 +16,7 @@
 			<ShortName>RXD_GUNS_SFX</ShortName>
 			<Path>RXD_GUNS_SFX.bnk</Path>
 			<IncludedEvents>
-				<Event Id="2700211032" Name="guns_tow_tow_npc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_npc">
+				<Event Id="2700211032" Name="guns_tow_tow_npc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_npc" DurationType="OneShot" DurationMin="4.857324" DurationMax="5.158456">
 					<IncludedMemoryFiles>
 						<File Id="1346035" Language="SFX">
 							<ShortName>407753211.wav</ShortName>
@@ -28,7 +28,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="537782068" Name="guns_tow_tow_pc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_pc">
+				<Event Id="537782068" Name="guns_tow_tow_pc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_pc" DurationType="OneShot" DurationMin="4.857324" DurationMax="5.158456">
 					<IncludedMemoryFiles>
 						<File Id="1346035" Language="SFX">
 							<ShortName>407753211.wav</ShortName>
@@ -48,7 +48,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2691862947" Name="guns_tracers_tracer_hard" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_hard">
+				<Event Id="2691862947" Name="guns_tracers_tracer_hard" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_hard" DurationType="OneShot" DurationMin="1.448254" DurationMax="2.121713">
 					<IncludedMemoryFiles>
 						<File Id="219156426" Language="SFX">
 							<ShortName>tracer_main.wav</ShortName>
@@ -64,7 +64,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2138103848" Name="guns_tracers_tracer_light" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_light">
+				<Event Id="2138103848" Name="guns_tracers_tracer_light" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_light" DurationType="OneShot" DurationMin="1.14948" DurationMax="1.684005">
 					<IncludedMemoryFiles>
 						<File Id="219156426" Language="SFX">
 							<ShortName>tracer_main.wav</ShortName>
@@ -80,7 +80,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1069259577" Name="guns_tracers_tracer_medium" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_medium">
+				<Event Id="1069259577" Name="guns_tracers_tracer_medium" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_medium" DurationType="OneShot" DurationMin="1.290248" DurationMax="1.890231">
 					<IncludedMemoryFiles>
 						<File Id="219156426" Language="SFX">
 							<ShortName>tracer_main.wav</ShortName>
@@ -96,7 +96,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2182468074" Name="guns_tracers_tracer_tow" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_tow">
+				<Event Id="2182468074" Name="guns_tracers_tracer_tow" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_tow" DurationType="OneShot" DurationMin="1.36697" DurationMax="2.00263">
 					<IncludedMemoryFiles>
 						<File Id="219156426" Language="SFX">
 							<ShortName>tracer_main.wav</ShortName>
@@ -112,7 +112,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="765951329" Name="RXD_AUTO_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_NPC">
+				<Event Id="765951329" Name="RXD_AUTO_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_NPC" DurationType="OneShot" DurationMin="1.421969" DurationMax="1.765033">
 					<IncludedMemoryFiles>
 						<File Id="49084645" Language="SFX">
 							<ShortName>Automatic_outside3_3times.wav</ShortName>
@@ -128,7 +128,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3537199447" Name="RXD_AUTO_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_PC">
+				<Event Id="3537199447" Name="RXD_AUTO_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_AUTO_PC" DurationType="OneShot" DurationMin="2.263969" DurationMax="2.55963">
 					<IncludedMemoryFiles>
 						<File Id="64395428" Language="SFX">
 							<ShortName>Auto_PC_Outside_new_2.wav</ShortName>
@@ -156,7 +156,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1833493041" Name="RXD_CANNONADE_LARGE" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_LARGE">
+				<Event Id="1833493041" Name="RXD_CANNONADE_LARGE" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_LARGE" DurationType="OneShot" DurationMin="2.266667" DurationMax="2.955196">
 					<IncludedMemoryFiles>
 						<File Id="297070261" Language="SFX">
 							<ShortName>589914796.wav</ShortName>
@@ -180,7 +180,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2470742873" Name="RXD_CANNONADE_MEDIUM" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_MEDIUM">
+				<Event Id="2470742873" Name="RXD_CANNONADE_MEDIUM" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_MEDIUM" DurationType="OneShot" DurationMin="2.266667" DurationMax="2.955196">
 					<IncludedMemoryFiles>
 						<File Id="297070261" Language="SFX">
 							<ShortName>589914796.wav</ShortName>
@@ -204,7 +204,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1896691065" Name="RXD_CANNONADE_SMALL" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_SMALL">
+				<Event Id="1896691065" Name="RXD_CANNONADE_SMALL" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_CANNONADE_SMALL" DurationType="OneShot" DurationMin="2.266667" DurationMax="2.955196">
 					<IncludedMemoryFiles>
 						<File Id="297070261" Language="SFX">
 							<ShortName>589914796.wav</ShortName>
@@ -228,7 +228,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3511647417" Name="RXD_HUGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_NPC">
+				<Event Id="3511647417" Name="RXD_HUGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_NPC" DurationType="OneShot" DurationMin="5.643878" DurationMax="7.942923">
 					<IncludedMemoryFiles>
 						<File Id="440993816" Language="SFX">
 							<ShortName>Huge_outside2_3times.wav</ShortName>
@@ -244,7 +244,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="4179778703" Name="RXD_HUGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_PC">
+				<Event Id="4179778703" Name="RXD_HUGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_HUGE_PC" DurationType="OneShot" DurationMin="8.521701" DurationMax="10.061657">
 					<IncludedMemoryFiles>
 						<File Id="50646593" Language="SFX">
 							<ShortName>Huge_PC_Outside_new.wav</ShortName>
@@ -272,7 +272,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2044673626" Name="RXD_LARGE_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_NPC">
+				<Event Id="2044673626" Name="RXD_LARGE_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_NPC" DurationType="OneShot" DurationMin="5.503107" DurationMax="6.373091">
 					<IncludedMemoryFiles>
 						<File Id="52519965" Language="SFX">
 							<ShortName>Large_extra_outside2_3times.wav</ShortName>
@@ -288,7 +288,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3966632014" Name="RXD_LARGE_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_PC">
+				<Event Id="3966632014" Name="RXD_LARGE_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_PC" DurationType="OneShot" DurationMin="7.325873" DurationMax="9.741848">
 					<IncludedMemoryFiles>
 						<File Id="387276468" Language="SFX">
 							<ShortName>Large_Extra_PC_Outside_new_2.wav</ShortName>
@@ -316,7 +316,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1398263457" Name="RXD_LARGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_NPC">
+				<Event Id="1398263457" Name="RXD_LARGE_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_NPC" DurationType="OneShot" DurationMin="6.106825" DurationMax="8.728607">
 					<IncludedMemoryFiles>
 						<File Id="605021672" Language="SFX">
 							<ShortName>Large_outside2_3times.wav</ShortName>
@@ -332,7 +332,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="189652887" Name="RXD_LARGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_PC">
+				<Event Id="189652887" Name="RXD_LARGE_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_PC" DurationType="OneShot" DurationMin="7.298299" DurationMax="9.263671">
 					<IncludedMemoryFiles>
 						<File Id="45576879" Language="SFX">
 							<ShortName>Large_PC_Outside_new_3.wav</ShortName>
@@ -360,7 +360,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1877308920" Name="RXD_MAIN_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_NPC">
+				<Event Id="1877308920" Name="RXD_MAIN_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_NPC" DurationType="OneShot" DurationMin="3.62229" DurationMax="3.960686">
 					<IncludedMemoryFiles>
 						<File Id="261820427" Language="SFX">
 							<ShortName>Main_extra_outside3_3times.wav</ShortName>
@@ -376,7 +376,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1855936340" Name="RXD_MAIN_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_PC">
+				<Event Id="1855936340" Name="RXD_MAIN_EXTRA_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_EXTRA_PC" DurationType="OneShot" DurationMin="6.408685" DurationMax="7.621576">
 					<IncludedMemoryFiles>
 						<File Id="310490692" Language="SFX">
 							<ShortName>Main_Extra_PC_Inside_new_3.wav</ShortName>
@@ -404,7 +404,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3321651311" Name="RXD_MAIN_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_NPC">
+				<Event Id="3321651311" Name="RXD_MAIN_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_NPC" DurationType="OneShot" DurationMin="4.620749" DurationMax="5.293736">
 					<IncludedMemoryFiles>
 						<File Id="239798784" Language="SFX">
 							<ShortName>Main_outside3_3times.wav</ShortName>
@@ -440,7 +440,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3533778469" Name="RXD_MAIN_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_PC">
+				<Event Id="3533778469" Name="RXD_MAIN_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MAIN_PC" DurationType="OneShot" DurationMin="6.64814" DurationMax="7.576987">
 					<IncludedMemoryFiles>
 						<File Id="35461523" Language="SFX">
 							<ShortName>Main_PC_Outside_new.wav</ShortName>
@@ -468,7 +468,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="2051267289" Name="RXD_MEDIUM_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_NPC">
+				<Event Id="2051267289" Name="RXD_MEDIUM_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_NPC" DurationType="OneShot" DurationMin="2.703651" DurationMax="3.087362">
 					<IncludedMemoryFiles>
 						<File Id="262457101" Language="SFX">
 							<ShortName>Medium_outside_3times.wav</ShortName>
@@ -484,7 +484,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="3263607855" Name="RXD_MEDIUM_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_PC">
+				<Event Id="3263607855" Name="RXD_MEDIUM_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_MEDIUM_PC" DurationType="OneShot" DurationMin="4.458209" DurationMax="5.854939">
 					<IncludedMemoryFiles>
 						<File Id="175175973" Language="SFX">
 							<ShortName>Medium_PC_Inside_new_2.wav</ShortName>
@@ -512,7 +512,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1338239369" Name="RXD_SMALL_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_NPC">
+				<Event Id="1338239369" Name="RXD_SMALL_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_NPC" DurationType="OneShot" DurationMin="3.060658" DurationMax="3.331831">
 					<IncludedMemoryFiles>
 						<File Id="278388571" Language="SFX">
 							<ShortName>Small_outside_3times.wav</ShortName>
@@ -528,7 +528,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="1549326591" Name="RXD_SMALL_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_PC">
+				<Event Id="1549326591" Name="RXD_SMALL_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_SMALL_PC" DurationType="OneShot" DurationMin="5.270907" DurationMax="5.584332">
 					<IncludedMemoryFiles>
 						<File Id="12399934" Language="SFX">
 							<ShortName>Small_PC_Inside_new_2.wav</ShortName>

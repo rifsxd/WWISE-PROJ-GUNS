@@ -27,6 +27,9 @@
       "Id": "2700211032",
       "Name": "guns_tow_tow_npc",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tow_tow_npc",
+      "DurationType": "OneShot",
+      "DurationMin": "4.857324",
+      "DurationMax": "5.158456",
       "IncludedMemoryFiles": [
        {
         "Id": "1346035",
@@ -46,6 +49,9 @@
       "Id": "537782068",
       "Name": "guns_tow_tow_pc",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tow_tow_pc",
+      "DurationType": "OneShot",
+      "DurationMin": "4.857324",
+      "DurationMax": "5.158456",
       "IncludedMemoryFiles": [
        {
         "Id": "1346035",
@@ -77,6 +83,9 @@
       "Id": "2691862947",
       "Name": "guns_tracers_tracer_hard",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tracers_tracer_hard",
+      "DurationType": "OneShot",
+      "DurationMin": "1.448254",
+      "DurationMax": "2.121713",
       "IncludedMemoryFiles": [
        {
         "Id": "219156426",
@@ -102,6 +111,9 @@
       "Id": "2138103848",
       "Name": "guns_tracers_tracer_light",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tracers_tracer_light",
+      "DurationType": "OneShot",
+      "DurationMin": "1.14948",
+      "DurationMax": "1.684005",
       "IncludedMemoryFiles": [
        {
         "Id": "219156426",
@@ -127,6 +139,9 @@
       "Id": "1069259577",
       "Name": "guns_tracers_tracer_medium",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tracers_tracer_medium",
+      "DurationType": "OneShot",
+      "DurationMin": "1.290248",
+      "DurationMax": "1.890231",
       "IncludedMemoryFiles": [
        {
         "Id": "219156426",
@@ -152,6 +167,9 @@
       "Id": "2182468074",
       "Name": "guns_tracers_tracer_tow",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tracers_tracer_tow",
+      "DurationType": "OneShot",
+      "DurationMin": "1.36697",
+      "DurationMax": "2.00263",
       "IncludedMemoryFiles": [
        {
         "Id": "219156426",
@@ -177,6 +195,9 @@
       "Id": "765951329",
       "Name": "RXD_AUTO_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_AUTO_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "1.421969",
+      "DurationMax": "1.765033",
       "IncludedMemoryFiles": [
        {
         "Id": "49084645",
@@ -202,6 +223,9 @@
       "Id": "3537199447",
       "Name": "RXD_AUTO_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_AUTO_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "2.263969",
+      "DurationMax": "2.55963",
       "IncludedMemoryFiles": [
        {
         "Id": "64395428",
@@ -245,6 +269,9 @@
       "Id": "1833493041",
       "Name": "RXD_CANNONADE_LARGE",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_CANNONADE_LARGE",
+      "DurationType": "OneShot",
+      "DurationMin": "2.266667",
+      "DurationMax": "2.955196",
       "IncludedMemoryFiles": [
        {
         "Id": "297070261",
@@ -282,6 +309,9 @@
       "Id": "2470742873",
       "Name": "RXD_CANNONADE_MEDIUM",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_CANNONADE_MEDIUM",
+      "DurationType": "OneShot",
+      "DurationMin": "2.266667",
+      "DurationMax": "2.955196",
       "IncludedMemoryFiles": [
        {
         "Id": "297070261",
@@ -319,6 +349,9 @@
       "Id": "1896691065",
       "Name": "RXD_CANNONADE_SMALL",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_CANNONADE_SMALL",
+      "DurationType": "OneShot",
+      "DurationMin": "2.266667",
+      "DurationMax": "2.955196",
       "IncludedMemoryFiles": [
        {
         "Id": "297070261",
@@ -356,6 +389,9 @@
       "Id": "3511647417",
       "Name": "RXD_HUGE_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_HUGE_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "5.643878",
+      "DurationMax": "7.942923",
       "IncludedMemoryFiles": [
        {
         "Id": "440993816",
@@ -381,6 +417,9 @@
       "Id": "4179778703",
       "Name": "RXD_HUGE_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_HUGE_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "8.521701",
+      "DurationMax": "10.061657",
       "IncludedMemoryFiles": [
        {
         "Id": "50646593",
@@ -424,6 +463,9 @@
       "Id": "2044673626",
       "Name": "RXD_LARGE_EXTRA_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_LARGE_EXTRA_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "5.503107",
+      "DurationMax": "6.373091",
       "IncludedMemoryFiles": [
        {
         "Id": "52519965",
@@ -449,6 +491,9 @@
       "Id": "3966632014",
       "Name": "RXD_LARGE_EXTRA_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_LARGE_EXTRA_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "7.325873",
+      "DurationMax": "9.741848",
       "IncludedMemoryFiles": [
        {
         "Id": "387276468",
@@ -492,6 +537,9 @@
       "Id": "1398263457",
       "Name": "RXD_LARGE_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_LARGE_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "6.106825",
+      "DurationMax": "8.728607",
       "IncludedMemoryFiles": [
        {
         "Id": "605021672",
@@ -517,6 +565,9 @@
       "Id": "189652887",
       "Name": "RXD_LARGE_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_LARGE_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "7.298299",
+      "DurationMax": "9.263671",
       "IncludedMemoryFiles": [
        {
         "Id": "45576879",
@@ -560,6 +611,9 @@
       "Id": "1877308920",
       "Name": "RXD_MAIN_EXTRA_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MAIN_EXTRA_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "3.62229",
+      "DurationMax": "3.960686",
       "IncludedMemoryFiles": [
        {
         "Id": "261820427",
@@ -585,6 +639,9 @@
       "Id": "1855936340",
       "Name": "RXD_MAIN_EXTRA_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MAIN_EXTRA_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "6.408685",
+      "DurationMax": "7.621576",
       "IncludedMemoryFiles": [
        {
         "Id": "310490692",
@@ -628,6 +685,9 @@
       "Id": "3321651311",
       "Name": "RXD_MAIN_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MAIN_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "4.620749",
+      "DurationMax": "5.293736",
       "IncludedMemoryFiles": [
        {
         "Id": "239798784",
@@ -683,6 +743,9 @@
       "Id": "3533778469",
       "Name": "RXD_MAIN_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MAIN_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "6.64814",
+      "DurationMax": "7.576987",
       "IncludedMemoryFiles": [
        {
         "Id": "35461523",
@@ -726,6 +789,9 @@
       "Id": "2051267289",
       "Name": "RXD_MEDIUM_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MEDIUM_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "2.703651",
+      "DurationMax": "3.087362",
       "IncludedMemoryFiles": [
        {
         "Id": "262457101",
@@ -751,6 +817,9 @@
       "Id": "3263607855",
       "Name": "RXD_MEDIUM_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_MEDIUM_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "4.458209",
+      "DurationMax": "5.854939",
       "IncludedMemoryFiles": [
        {
         "Id": "175175973",
@@ -794,6 +863,9 @@
       "Id": "1338239369",
       "Name": "RXD_SMALL_NPC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_SMALL_NPC",
+      "DurationType": "OneShot",
+      "DurationMin": "3.060658",
+      "DurationMax": "3.331831",
       "IncludedMemoryFiles": [
        {
         "Id": "278388571",
@@ -819,6 +891,9 @@
       "Id": "1549326591",
       "Name": "RXD_SMALL_PC",
       "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_SMALL_PC",
+      "DurationType": "OneShot",
+      "DurationMin": "5.270907",
+      "DurationMax": "5.584332",
       "IncludedMemoryFiles": [
        {
         "Id": "12399934",

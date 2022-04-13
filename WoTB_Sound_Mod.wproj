@@ -31,6 +31,7 @@
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankGenerateDefinitionFile" Type="bool" Value="False"/>
+				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
