@@ -170,7 +170,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="RXD_TOW_PC" ID="{29FF4906-1430-4E95-AE29-7B74F346B5C1}">
+				<Event Name="guns_tow_tow_pc" ID="{29FF4906-1430-4E95-AE29-7B74F346B5C1}">
 					<ChildrenList>
 						<Action Name="" ID="{59024EC4-135C-4C3B-9055-8A169A88A6CF}" ShortID="764651184">
 							<ReferenceList>
@@ -326,7 +326,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="RXD_TOW_NPC" ID="{13B846B5-4114-44D5-9E69-4E44E94B4DB2}">
+				<Event Name="guns_tow_tow_npc" ID="{13B846B5-4114-44D5-9E69-4E44E94B4DB2}">
 					<ChildrenList>
 						<Action Name="" ID="{8B536DF0-F446-4FE8-AB8E-B4A8FAEC5944}" ShortID="57583446">
 							<ReferenceList>

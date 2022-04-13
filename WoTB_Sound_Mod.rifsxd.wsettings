@@ -251,8 +251,8 @@
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\FirstVisible_10_1" Type="string" Value="{4C96B38B-3DB4-40C7-91C9-665510E38993}"/>
 				<Property Name="ProjectExplorer\FirstVisible_11_1" Type="string" Value="{23EC2DE3-3ED8-4B82-AC99-92E25F2E4C6B}"/>
-				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{3B60C53C-59D6-429A-8B7E-C194AF69FB29}"/>
-				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{A69BF0FC-D84A-487C-ABDD-56F71CB2A126}"/>
+				<Property Name="ProjectExplorer\FirstVisible_1_1" Type="string" Value="{2388DAEA-9775-46C6-A2ED-C5222A397756}"/>
+				<Property Name="ProjectExplorer\FirstVisible_3_1" Type="string" Value="{13B846B5-4114-44D5-9E69-4E44E94B4DB2}"/>
 				<Property Name="ProjectExplorer\FirstVisible_4_1" Type="string" Value="{CB6175F1-6080-4A23-92EF-0807E304D0C1}"/>
 				<Property Name="ProjectExplorer\FirstVisible_6_1" Type="string" Value="{C98E673F-A24C-48A8-960F-10565FFE70A0}"/>
 				<Property Name="ProjectExplorer\FirstVisible_8_1" Type="string" Value="{70F46671-A828-4029-A11A-36BB09D872B9}"/>
@@ -269,7 +269,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="R2JcABJYfk2G6i88ULXhZg=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="yTmYqVUuuUGg4vxerXBqfzzFYDvWWZpCi37BlK9p+ylhoz3f+AkNQ4FPQIDygIjd08lwRqlMRESgb/n9aUaoUuqo+XcIa3tEkSt/V+mCivlDRHYec1K7RJgf+pZD8o0WL/O1q0awCEag6tm703MridH81uv5DQ5GsqV+FgJF91x9+sYtbN8/R6WDZTYS5QQOHWWZCrwhQkeYeMpDH8n0dYymX4A4ilpIh9fS/nLJxZRRURtXOFLKSIIHw47eTglfUN12u9oMJUmCcibwNL1zeBkCCXZ7GkNJmJOKu9PuLSLR//TIoA2OSqUf0Fply7qMh4nOS3WHuEqTTXQv9WYISzKw0KhHMFZMnzP3rSuBR7HyFK2DLV88TZVRXGwScmFiAroVw+qll021QfSmwb5p7WNJTtZNTKBPh24CeJXbJgp33Ii3KQ6xT4JuG+p5kiKf"/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="yTmYqVUuuUGg4vxerXBqfzzFYDvWWZpCi37BlK9p+ylhoz3f+AkNQ4FPQIDygIjd08lwRqlMRESgb/n9aUaoUuqo+XcIa3tEkSt/V+mCivkv87WrRrAIRqDq2bvTcyuJ0fzW6/kNDkaypX4WAkX3XH36xi1s3z9HpYNlNhLlBA4dZZkKvCFCR5h4ykMfyfR1jKZfgDiKWkiH19L+csnFlFFRG1c4UspIggfDjt5OCV9Q3Xa72gwlSYJyJvA0vXN4GQIJdnsaQ0mYk4q70+4tItH/9MigDY5KpR/QWmXLuowysNCoRzBWTJ8z960rgUex8hStgy1fPE2VUVxsEnJhYgK6FcPqpZdNtUH0psG+ae1jSU7WTUygT4duAniV2yYKd9yItykOsU+CbhvqeZIinw=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="ibN5pZrUC0CNTStamn3I6+fz6A8Jtk1DqkToqqbMKs4="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>

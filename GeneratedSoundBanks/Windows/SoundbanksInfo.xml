@@ -1,21 +1,53 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>E:\GitHub\WWISE-PROJECT-GUNS\</ProjectRoot>
-		<SourceFilesRoot>E:\GitHub\WWISE-PROJECT-GUNS\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>E:\GitHub\WWISE-PROJECT-GUNS\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>E:\GitHub\WWISE-PROJ-GUNS\</ProjectRoot>
+		<SourceFilesRoot>E:\GitHub\WWISE-PROJ-GUNS\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>E:\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>E:\GitHub\WWISE-PROJECT-GUNS\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>E:\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="173144853" Language="SFX" Hash="905782099">
+		<SoundBank Id="173144853" Language="SFX" Hash="1972520573">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_GUNS_SFX</ObjectPath>
 			<ShortName>RXD_GUNS_SFX</ShortName>
 			<Path>RXD_GUNS_SFX.bnk</Path>
 			<IncludedEvents>
+				<Event Id="2700211032" Name="guns_tow_tow_npc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_npc">
+					<IncludedMemoryFiles>
+						<File Id="1346035" Language="SFX">
+							<ShortName>407753211.wav</ShortName>
+							<Path>SFX/407753211_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251724739" Language="SFX">
+							<ShortName>507965225.wav</ShortName>
+							<Path>SFX/507965225_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="537782068" Name="guns_tow_tow_pc" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tow_tow_pc">
+					<IncludedMemoryFiles>
+						<File Id="1346035" Language="SFX">
+							<ShortName>407753211.wav</ShortName>
+							<Path>SFX/407753211_3F75BDB9.wem</Path>
+						</File>
+						<File Id="251724739" Language="SFX">
+							<ShortName>507965225.wav</ShortName>
+							<Path>SFX/507965225_3F75BDB9.wem</Path>
+						</File>
+						<File Id="383360617" Language="SFX">
+							<ShortName>634050353.wav</ShortName>
+							<Path>SFX/634050353_3F75BDB9.wem</Path>
+						</File>
+						<File Id="686550656" Language="SFX">
+							<ShortName>60436895.wav</ShortName>
+							<Path>SFX/60436895_3F75BDB9.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
 				<Event Id="2691862947" Name="guns_tracers_tracer_hard" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\guns_tracers_tracer_hard">
 					<IncludedMemoryFiles>
 						<File Id="219156426" Language="SFX">
@@ -521,38 +553,6 @@
 						<File Id="282973874" Language="SFX">
 							<ShortName>Small_PC_Outside_new_2.wav</ShortName>
 							<Path>SFX/Small_PC_Outside_new_2_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="2046310014" Name="RXD_TOW_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_TOW_NPC">
-					<IncludedMemoryFiles>
-						<File Id="1346035" Language="SFX">
-							<ShortName>407753211.wav</ShortName>
-							<Path>SFX/407753211_3F75BDB9.wem</Path>
-						</File>
-						<File Id="251724739" Language="SFX">
-							<ShortName>507965225.wav</ShortName>
-							<Path>SFX/507965225_3F75BDB9.wem</Path>
-						</File>
-					</IncludedMemoryFiles>
-				</Event>
-				<Event Id="3629423298" Name="RXD_TOW_PC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_TOW_PC">
-					<IncludedMemoryFiles>
-						<File Id="1346035" Language="SFX">
-							<ShortName>407753211.wav</ShortName>
-							<Path>SFX/407753211_3F75BDB9.wem</Path>
-						</File>
-						<File Id="251724739" Language="SFX">
-							<ShortName>507965225.wav</ShortName>
-							<Path>SFX/507965225_3F75BDB9.wem</Path>
-						</File>
-						<File Id="383360617" Language="SFX">
-							<ShortName>634050353.wav</ShortName>
-							<Path>SFX/634050353_3F75BDB9.wem</Path>
-						</File>
-						<File Id="686550656" Language="SFX">
-							<ShortName>60436895.wav</ShortName>
-							<Path>SFX/60436895_3F75BDB9.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>

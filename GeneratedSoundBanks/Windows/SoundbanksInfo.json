@@ -5,11 +5,11 @@
   "SchemaVersion": "12",
   "SoundbankVersion": "135",
   "RootPaths": {
-   "ProjectRoot": "E:\\GitHub\\WWISE-PROJECT-GUNS\\",
-   "SourceFilesRoot": "E:\\GitHub\\WWISE-PROJECT-GUNS\\.cache\\Windows\\",
-   "SoundBanksRoot": "E:\\GitHub\\WWISE-PROJECT-GUNS\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "E:\\GitHub\\WWISE-PROJ-GUNS\\",
+   "SourceFilesRoot": "E:\\GitHub\\WWISE-PROJ-GUNS\\.cache\\Windows\\",
+   "SoundBanksRoot": "E:\\GitHub\\WWISE-PROJ-GUNS\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "E:\\GitHub\\WWISE-PROJECT-GUNS\\GeneratedSoundBanks\\Windows"
+   "ExternalSourcesOutputRoot": "E:\\GitHub\\WWISE-PROJ-GUNS\\GeneratedSoundBanks\\Windows"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -18,11 +18,61 @@
    {
     "Id": "173144853",
     "Language": "SFX",
-    "Hash": "905782099",
+    "Hash": "1972520573",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\RXD\\RXD_GUNS_SFX",
     "ShortName": "RXD_GUNS_SFX",
     "Path": "RXD_GUNS_SFX.bnk",
     "IncludedEvents": [
+     {
+      "Id": "2700211032",
+      "Name": "guns_tow_tow_npc",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tow_tow_npc",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1346035",
+        "Language": "SFX",
+        "ShortName": "407753211.wav",
+        "Path": "SFX/407753211_3F75BDB9.wem"
+       },
+       {
+        "Id": "251724739",
+        "Language": "SFX",
+        "ShortName": "507965225.wav",
+        "Path": "SFX/507965225_3F75BDB9.wem"
+       }
+      ]
+     },
+     {
+      "Id": "537782068",
+      "Name": "guns_tow_tow_pc",
+      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\guns_tow_tow_pc",
+      "IncludedMemoryFiles": [
+       {
+        "Id": "1346035",
+        "Language": "SFX",
+        "ShortName": "407753211.wav",
+        "Path": "SFX/407753211_3F75BDB9.wem"
+       },
+       {
+        "Id": "251724739",
+        "Language": "SFX",
+        "ShortName": "507965225.wav",
+        "Path": "SFX/507965225_3F75BDB9.wem"
+       },
+       {
+        "Id": "383360617",
+        "Language": "SFX",
+        "ShortName": "634050353.wav",
+        "Path": "SFX/634050353_3F75BDB9.wem"
+       },
+       {
+        "Id": "686550656",
+        "Language": "SFX",
+        "ShortName": "60436895.wav",
+        "Path": "SFX/60436895_3F75BDB9.wem"
+       }
+      ]
+     },
      {
       "Id": "2691862947",
       "Name": "guns_tracers_tracer_hard",
@@ -805,56 +855,6 @@
         "Language": "SFX",
         "ShortName": "Small_PC_Outside_new_2.wav",
         "Path": "SFX/Small_PC_Outside_new_2_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
-      "Id": "2046310014",
-      "Name": "RXD_TOW_NPC",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_TOW_NPC",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "1346035",
-        "Language": "SFX",
-        "ShortName": "407753211.wav",
-        "Path": "SFX/407753211_3F75BDB9.wem"
-       },
-       {
-        "Id": "251724739",
-        "Language": "SFX",
-        "ShortName": "507965225.wav",
-        "Path": "SFX/507965225_3F75BDB9.wem"
-       }
-      ]
-     },
-     {
-      "Id": "3629423298",
-      "Name": "RXD_TOW_PC",
-      "ObjectPath": "\\Events\\Default Work Unit\\WOTPC_GUNS\\RXD_TOW_PC",
-      "IncludedMemoryFiles": [
-       {
-        "Id": "1346035",
-        "Language": "SFX",
-        "ShortName": "407753211.wav",
-        "Path": "SFX/407753211_3F75BDB9.wem"
-       },
-       {
-        "Id": "251724739",
-        "Language": "SFX",
-        "ShortName": "507965225.wav",
-        "Path": "SFX/507965225_3F75BDB9.wem"
-       },
-       {
-        "Id": "383360617",
-        "Language": "SFX",
-        "ShortName": "634050353.wav",
-        "Path": "SFX/634050353_3F75BDB9.wem"
-       },
-       {
-        "Id": "686550656",
-        "Language": "SFX",
-        "ShortName": "60436895.wav",
-        "Path": "SFX/60436895_3F75BDB9.wem"
        }
       ]
      }
