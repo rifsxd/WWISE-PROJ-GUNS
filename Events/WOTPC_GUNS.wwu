@@ -168,16 +168,6 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{FB955155-EBE5-4215-9FB0-1E658FC58C74}" ShortID="825742424">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="0.6"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="huge_in" ID="{17200439-1D55-4F4E-857E-3A60804C1B1D}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="guns_tow_tow_pc" ID="{29FF4906-1430-4E95-AE29-7B74F346B5C1}">
@@ -353,120 +343,6 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="115_152mm_NPC_Gun" ID="{246D34FC-60C8-4E7E-BA47-A97282F33D94}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_AUTO_MAIN_EXTRA_PC" ID="{DEC287F3-AC1E-4474-9A0A-C818385CB43B}">
-					<ChildrenList>
-						<Action Name="" ID="{A56FB53A-6D97-46F4-B768-B3E0221CE2D4}" ShortID="374094748">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="85_107mm_PC_Gun_Inside" ID="{E9985021-573D-484E-8D83-8153F641E8D5}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{B0920AA6-7A11-4637-9068-706EBF9A6C2A}" ShortID="556234021">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="85_107mm_PC_Gun_Outside" ID="{DD135D2E-0F01-4CAD-8859-4A7AB6FBD636}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{44FE63EE-AC0D-4057-B750-7AE2968567C5}" ShortID="688209892">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="auto_main_extra_in" ID="{3EF3F13B-72E8-44CF-83C4-7BA037F4F4E2}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{E45092D0-3936-4542-B1F5-05884E14138E}" ShortID="526027264">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="auto_main_extra_out" ID="{83D02206-DE20-40AD-9715-F4A0BBF2BB2B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_AUTO_MEDIUM_PC" ID="{53E7C479-4251-4207-A35F-11092331DF29}">
-					<ChildrenList>
-						<Action Name="" ID="{43FA1624-29E8-4426-AF7A-A21ED3850CFC}" ShortID="947397154">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="50_75mm_PC_Gun_Inside" ID="{D94152A0-772C-4F9D-B258-D4F6EFD8A821}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{17222EC1-8557-46EC-9BB0-4D5604BDDA9B}" ShortID="725587755">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="50_75mm_PC_Gun_Outside" ID="{CCB4CF76-5FFC-4538-9172-6401E12AD0EA}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{F63AF46B-77F2-4AFA-94C7-54B469A995EA}" ShortID="681686962">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="auto_medium_in" ID="{16CC01B0-E47E-4004-AAB7-11B7E762D790}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{92A7E87F-959E-48DE-9C5E-16A7E224DE27}" ShortID="322661630">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="auto_medium_out" ID="{5E3C8059-FBB4-47E9-BDDD-1965A9C47B27}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="RXD_AUTO_LARGE_EXTRA_PC" ID="{4BBBEF20-B215-4129-B0EA-6A6260209A0F}">
-					<ChildrenList>
-						<Action Name="" ID="{C0B2E19E-EFB9-4241-B1E9-2AF70608B029}" ShortID="937960587">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="115_152mm_PC_Gun_Inside" ID="{8DEBBE68-1ADC-43FD-A0B1-FF8FBC1672F9}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{BBF34721-5AC7-49F2-A5EF-36125A18FE4D}" ShortID="385135413">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="115_152mm_PC_Gun_Outside" ID="{BF7415C1-27C6-4ABA-90C1-4C3756E3688F}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{CD2E7AA4-E706-4C95-B7E3-DF73F7A218C5}" ShortID="147906176">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="auto_large_extra_in" ID="{F30FB9D2-A072-4DAC-B318-A86C6396EE89}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{C85A01AB-5B4E-425F-820D-02836EA2C905}" ShortID="23368704">
-							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="3"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="ejection_large_extra_casing" ID="{D3EB375E-6AD3-4BD1-B0A4-0A3F3AF49F93}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
