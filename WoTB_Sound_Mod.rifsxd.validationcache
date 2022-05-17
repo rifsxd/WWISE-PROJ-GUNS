@@ -110,4 +110,59 @@
 	<ValidationCacheItem File="Z:\home\rifsxd\HDD1\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614938051" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\home\rifsxd\HDD1\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Extra.wwu" DateLow="1652055850" DateHigh="0"/>
 	<ValidationCacheItem File="Z:\home\rifsxd\HDD1\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1652114244" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\WoTB_Sound_Mod.wproj" DateLow="1649845930" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\WoTB_Sound_Mod.rifsxd.wsettings" DateLow="1652755531" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1612575826" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Virtual Acoustics\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Triggers\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Switches\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\States\UI.wwu" DateLow="1614404865" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\States\Settings.wwu" DateLow="1614244547" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\States\Music.wwu" DateLow="1614392966" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\States\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\SoundBanks\Default Work Unit.wwu" DateLow="1649708163" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Queries\Factory Queries.wwu" DateLow="1615010515" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Queries\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Presets\Factory Spatial Audio.wwu" DateLow="1612575812" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Presets\Factory Reflect.wwu" DateLow="1612575826" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Presets\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Modulators\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Mixing Sessions\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1621324074" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Weapon.wwu" DateLow="1614997645" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\UI.wwu" DateLow="1621311719" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Settings.wwu" DateLow="1614360732" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Hits.wwu" DateLow="1615022617" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Hanger.wwu" DateLow="1614169946" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\General.wwu" DateLow="1620050227" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1612575830" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Factory Motion.wwu" DateLow="1612575824" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Game Parameters\Default Work Unit.wwu" DateLow="1613810594" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Events\WOTPC_GUNS.wwu" DateLow="1652755531" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Events\Default Work Unit.wwu" DateLow="1649622042" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory Reflect.wwu" DateLow="1612575826" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory McDSP Effects.wwu" DateLow="1612575834" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Filters.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Dynamics.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Delay.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory iZotope Box Modeler.wwu" DateLow="1612575836" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory Effects.wwu" DateLow="1614261666" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Factory Auro Headphone.wwu" DateLow="1612575832" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Effects\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Dynamic Dialogue\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Conversion Settings\Factory Conversion Settings.wwu" DateLow="1612575812" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Conversion Settings\Default Work Unit.wwu" DateLow="1613737682" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Control Surface Sessions\Default Work Unit.wwu" DateLow="1613736494" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Audio Devices\Default Work Unit.wwu" DateLow="1613744138" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Attenuations\Default Work Unit.wwu" DateLow="1649784623" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1612575812" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1612575830" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1614938051" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Extra.wwu" DateLow="1652055850" DateHigh="0"/>
+	<ValidationCacheItem File="D:\GitHub\WWISE-PROJ-GUNS\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1652755531" DateHigh="0"/>
 </ValidationCache>
