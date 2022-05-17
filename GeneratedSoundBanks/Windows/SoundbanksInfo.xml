@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="135">
 	<RootPaths>
-		<ProjectRoot>Z:\mnt\hdd1\GitHub\WWISE-PROJ-GUNS\</ProjectRoot>
-		<SourceFilesRoot>Z:\mnt\hdd1\GitHub\WWISE-PROJ-GUNS\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>Z:\mnt\hdd1\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\GitHub\WWISE-PROJ-GUNS\</ProjectRoot>
+		<SourceFilesRoot>D:\GitHub\WWISE-PROJ-GUNS\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>Z:\mnt\hdd1\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\GitHub\WWISE-PROJ-GUNS\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="173144853" Language="SFX" Hash="1821573911">
+		<SoundBank Id="173144853" Language="SFX" Hash="2915644394">
 			<ObjectPath>\SoundBanks\Default Work Unit\RXD\RXD_GUNS_SFX</ObjectPath>
 			<ShortName>RXD_GUNS_SFX</ShortName>
 			<Path>RXD_GUNS_SFX.bnk</Path>
@@ -270,6 +270,10 @@
 							<ShortName>Huge_PC_Outside_new_3.wav</ShortName>
 							<Path>SFX/Huge_PC_Outside_new_3_3F75BDB9.wem</Path>
 						</File>
+						<File Id="735740128" Language="SFX">
+							<ShortName>Guns_1543.wav</ShortName>
+							<Path>SFX/Guns_1543_3F75BDB9.wem</Path>
+						</File>
 					</IncludedMemoryFiles>
 				</Event>
 				<Event Id="2044673626" Name="RXD_LARGE_EXTRA_NPC" ObjectPath="\Events\Default Work Unit\WOTPC_GUNS\RXD_LARGE_EXTRA_NPC" DurationType="OneShot" DurationMin="5.503107" DurationMax="6.373091">
@@ -386,10 +390,6 @@
 							<ShortName>Main_Extra_PC_Outside_new.wav</ShortName>
 							<Path>SFX/Main_Extra_PC_Outside_new_3F75BDB9.wem</Path>
 						</File>
-						<File Id="449430779" Language="SFX">
-							<ShortName>eject_auto_1_out.wav</ShortName>
-							<Path>SFX/eject_auto_1_out_3F75BDB9.wem</Path>
-						</File>
 						<File Id="524611554" Language="SFX">
 							<ShortName>Main_Extra_PC_Outside_new_3.wav</ShortName>
 							<Path>SFX/Main_Extra_PC_Outside_new_3_3F75BDB9.wem</Path>
@@ -401,10 +401,6 @@
 						<File Id="802693935" Language="SFX">
 							<ShortName>Main_Extra_PC_Inside_new_2.wav</ShortName>
 							<Path>SFX/Main_Extra_PC_Inside_new_2_3F75BDB9.wem</Path>
-						</File>
-						<File Id="900671349" Language="SFX">
-							<ShortName>eject_auto_1.wav</ShortName>
-							<Path>SFX/eject_auto_1_3F75BDB9.wem</Path>
 						</File>
 						<File Id="931580144" Language="SFX">
 							<ShortName>Main_Extra_PC_Outside_new_2.wav</ShortName>
