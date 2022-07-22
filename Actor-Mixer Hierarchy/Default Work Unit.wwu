@@ -2130,6 +2130,118 @@
 												</Position>
 											</PositioningInfo>
 										</ActorMixer>
+										<ActorMixer Name="HUGE_EXTRA_NPC" ID="{606B8A4A-466F-479D-BA43-1F591C3D17EB}" ShortID="894424359">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="EnableDiffraction" Type="bool" Value="True"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-500</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GUNS_NPC" ID="{18AB15FB-5AD6-4DB1-9730-96638652D5E8}" WorkUnitID="{2A4DC1AF-DA27-4BAB-BFB5-D16386FA615E}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="weapon" ID="{3C0CA62C-81EB-471C-9D2B-E88ED50299D6}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="152mm_NPC_Gun" ID="{9E9EE9CE-3D8B-41F7-9E21-6B5D435DEA78}" ShortID="330470287">
+													<PropertyList>
+														<Property Name="BelowThresholdBehavior" Type="int16" Value="2"/>
+														<Property Name="MaxReachedBehavior" Type="int16" Value="1"/>
+														<Property Name="OverrideVirtualVoice" Type="bool" Value="True"/>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="weapon" ID="{3C0CA62C-81EB-471C-9D2B-E88ED50299D6}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Huge_outside2_3times" ID="{060FA598-E538-4D6D-92AC-F491CD909D27}" ShortID="339592569">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_outside2_3times" ID="{F563DE1E-DA52-4793-8BEE-F2C82C72166A}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_outside2_3times.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="440993816"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_outside2_3times" ID="{F563DE1E-DA52-4793-8BEE-F2C82C72166A}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_outside3_3times" ID="{81E41924-583D-405E-B37B-C44B16BDA533}" ShortID="868128043">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_outside3_3times" ID="{3BF0DE62-2303-4644-A0A9-97104768E76E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_outside3_3times.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="542186464"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_outside3_3times" ID="{3BF0DE62-2303-4644-A0A9-97104768E76E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_outside_3times" ID="{35661BF3-F8A6-4F09-BC13-867DAB2C8E3B}" ShortID="323123462">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_outside_3times" ID="{37C20EE7-9192-445F-9D23-E3C7FD4F2E22}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_outside_3times.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="607228210"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_outside_3times" ID="{37C20EE7-9192-445F-9D23-E3C7FD4F2E22}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 									<StateInfo>
 										<StateGroupList>
@@ -4259,8 +4371,304 @@
 												</RandomSequenceContainer>
 											</ChildrenList>
 										</ActorMixer>
+										<ActorMixer Name="HUGE_EXTRA_PC" ID="{3D707C18-F923-4BBE-8B39-61C9F9B61B58}" ShortID="88578689">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Pitch" Type="int32">
+													<ValueList>
+														<Value>-500</Value>
+													</ValueList>
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9D1CE53D-D28E-40D7-B22C-7BEA8CA26883}"/>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="GUNS_PC" ID="{D6BD7179-5C63-4AD2-B7B2-93FA9558B00E}" WorkUnitID="{2A4DC1AF-DA27-4BAB-BFB5-D16386FA615E}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="weapon" ID="{3C0CA62C-81EB-471C-9D2B-E88ED50299D6}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<RandomSequenceContainer Name="152mm_PC_Gun_Outside" ID="{B3CC9A10-1472-49E4-AF1C-ACDF1E42CBDC}" ShortID="1044526594">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Huge_PC_Outside_new" ID="{6E53317B-0B8B-4ACC-9383-2ED0AD62EA16}" ShortID="10015226">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Outside_new" ID="{8050F19D-BC0C-4AD8-82E2-4513938FE4FF}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Outside_new.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="50646593"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Outside_new" ID="{8050F19D-BC0C-4AD8-82E2-4513938FE4FF}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_PC_Outside_new_2" ID="{82C41275-DBBD-4E99-96E5-F7AEBD874587}" ShortID="190467379">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Outside_new_2" ID="{AD18A63F-A6B9-4A91-81CA-56A11A227B93}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Outside_new_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="567533711"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Outside_new_2" ID="{AD18A63F-A6B9-4A91-81CA-56A11A227B93}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_PC_Outside_new_3" ID="{EBD305B8-B6E9-4107-AC92-72F7C25E9D04}" ShortID="858676929">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Outside_new_3" ID="{B461C3A2-7E40-48C7-98B9-594C231CD6AC}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Outside_new_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="733111982"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Outside_new_3" ID="{B461C3A2-7E40-48C7-98B9-594C231CD6AC}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="STATE_view_play_mode" ID="{724E58E7-59D1-4671-9356-B633DEDB53F9}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="STATE_view_play_mode_sniper" ID="{28384EC5-E7AE-494D-8DF4-BFF3B676B8CC}"/>
+																<CustomState Name="" ID="{45D0F7D6-7F25-480C-B45F-31F4195A53EB}" ShortID="47844926">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="STATE_view_play_mode_arcade" ID="{13248C08-81CA-4C92-96B4-B17F94BCFD5C}"/>
+																<CustomState Name="" ID="{6C66408D-D1DD-4D84-9B8A-47FACE4F02FC}" ShortID="530739207"/>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</RandomSequenceContainer>
+												<RandomSequenceContainer Name="152mm_PC_Gun_Inside" ID="{7E0A60DA-539B-407F-83D7-6C09580BDDB6}" ShortID="450143098">
+													<PropertyList>
+														<Property Name="Volume" Type="Real64">
+															<ValueList>
+																<Value>10</Value>
+															</ValueList>
+														</Property>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<Sound Name="Huge_PC_Inside_new" ID="{431D7523-6CF4-435D-89A6-7868AB2888B5}" ShortID="895216926">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Inside_new" ID="{7BFD6976-6D29-409D-9AF2-7EB249B3F4E0}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Inside_new.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="51444086"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Inside_new" ID="{7BFD6976-6D29-409D-9AF2-7EB249B3F4E0}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_PC_Inside_new_2" ID="{5CE367CE-AB4A-497F-B765-EFA03FB9C7B1}" ShortID="325679352">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Inside_new_2" ID="{EC0A7156-6028-4985-9677-216CE2203B09}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Inside_new_2.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="290565830"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Inside_new_2" ID="{EC0A7156-6028-4985-9677-216CE2203B09}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+														<Sound Name="Huge_PC_Inside_new_3" ID="{C682B256-7849-425D-8D52-6F5DA1B38D02}" ShortID="957717999">
+															<ReferenceList>
+																<Reference Name="Conversion">
+																	<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+																</Reference>
+																<Reference Name="OutputBus">
+																	<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+																</Reference>
+															</ReferenceList>
+															<ChildrenList>
+																<AudioFileSource Name="Huge_PC_Inside_new_3" ID="{71FC56C0-89BD-4B3E-ADBD-8EB28B7BFA8E}">
+																	<Language>SFX</Language>
+																	<AudioFile>Huge_PC_Inside_new_3.wav</AudioFile>
+																	<MediaIDList>
+																		<MediaID ID="284232642"/>
+																	</MediaIDList>
+																</AudioFileSource>
+															</ChildrenList>
+															<ActiveSourceList>
+																<ActiveSource Name="Huge_PC_Inside_new_3" ID="{71FC56C0-89BD-4B3E-ADBD-8EB28B7BFA8E}" Platform="Linked"/>
+															</ActiveSourceList>
+														</Sound>
+													</ChildrenList>
+													<StateInfo>
+														<StateGroupList>
+															<StateGroupInfo>
+																<StateGroupRef Name="STATE_view_play_mode" ID="{724E58E7-59D1-4671-9356-B633DEDB53F9}"/>
+															</StateGroupInfo>
+														</StateGroupList>
+														<CustomStateList>
+															<CustomState>
+																<StateRef Name="STATE_view_play_mode_sniper" ID="{28384EC5-E7AE-494D-8DF4-BFF3B676B8CC}"/>
+																<CustomState Name="" ID="{BAD262F4-E72B-4254-B78C-721EDAFE68BB}" ShortID="210575769"/>
+															</CustomState>
+															<CustomState>
+																<StateRef Name="STATE_view_play_mode_arcade" ID="{13248C08-81CA-4C92-96B4-B17F94BCFD5C}"/>
+																<CustomState Name="" ID="{6D9B441B-1C7A-4384-8AF5-96AED3D0672E}" ShortID="37343536">
+																	<PropertyList>
+																		<Property Name="Volume" Type="Real64" Value="-108"/>
+																	</PropertyList>
+																</CustomState>
+															</CustomState>
+														</CustomStateList>
+													</StateInfo>
+												</RandomSequenceContainer>
+											</ChildrenList>
+										</ActorMixer>
 									</ChildrenList>
 								</ActorMixer>
+							</ChildrenList>
+						</ActorMixer>
+						<ActorMixer Name="EFFECTS" ID="{31DA38FA-82A4-436C-8A57-D8AF7E8EC407}" ShortID="235552524">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<RandomSequenceContainer Name="TINNITUS_EFFECTS" ID="{DE78F4F7-7BA7-4CA6-8A97-4ECB3C479371}" ShortID="651707873">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+										</Reference>
+										<Reference Name="Effect0" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
+											<ObjectRef Name="Big_Bottom_01" ID="{62BEFF08-8116-444E-9F4A-12C717B77005}" WorkUnitID="{E0243ED6-C4CC-4FD8-B8E8-2E98F6DCF3A5}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="tinnitus" ID="{F6AB1634-8A1A-4E33-9256-209D4A193F36}" ShortID="789452195">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Vorbis Quality High" ID="{53A9DE0F-3F4F-4B59-8614-3F9E3C7358FC}" WorkUnitID="{F6B2880C-85E5-47FA-A126-645B5DFD9ACC}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{005C6247-5812-4D7E-86EA-2F3C50B5E166}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="tinnitus" ID="{AD3CF2A4-9D40-4E8A-92B0-BA7E1B075581}">
+													<Language>SFX</Language>
+													<AudioFile>tinnitus.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="229540433"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="tinnitus" ID="{AD3CF2A4-9D40-4E8A-92B0-BA7E1B075581}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
 					</ChildrenList>

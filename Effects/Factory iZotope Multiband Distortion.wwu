@@ -91,7 +91,7 @@
 				<Effect Name="Big_Pistol_01" ID="{52CB45E8-B60B-4C32-A2AE-694A35C14D3D}" PluginName="iZotope Trash Multiband Distortion" CompanyID="259" PluginID="9" PluginType="3">
 					<PropertyList>
 						<Property Name="Distortion1Band1Mix" Type="Real32" Value="54"/>
-						<Property Name="Distortion1Band1Type" Type="int32" Value="29"/>
+						<Property Name="Distortion1Band1Type" Type="int32" Value="40"/>
 						<Property Name="Distortion1Band2Mix" Type="Real32" Value="76"/>
 						<Property Name="Distortion1Band2Overdrive" Type="Real32" Value="10"/>
 						<Property Name="Distortion1Band2Type" Type="int32" Value="19"/>

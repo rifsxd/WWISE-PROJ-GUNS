@@ -152,19 +152,30 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="RXD_HUGE_PC" ID="{B0462D06-59CB-4CE3-8257-9126B42CD2E9}">
+				<Event Name="RXD_HUGE_EXTRA_PC" ID="{B0462D06-59CB-4CE3-8257-9126B42CD2E9}">
 					<ChildrenList>
-						<Action Name="" ID="{016EC33A-71E2-4CBB-BA87-5A3042DF2908}" ShortID="63130608">
+						<Action Name="" ID="{83ECAC2B-FF36-4B1B-9E14-9D2F750DDB32}" ShortID="238534238">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="152mm_PC_Gun_Inside" ID="{31D16E5B-7DA9-4871-B4B3-EA1923D5B88B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="152mm_PC_Gun_Inside" ID="{7E0A60DA-539B-407F-83D7-6C09580BDDB6}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
-						<Action Name="" ID="{2EC22C0D-2605-497C-80C5-EEE61A161C86}" ShortID="623944722">
+						<Action Name="" ID="{31C3AE40-48AB-42E8-96D3-A31587F5E3D9}" ShortID="448114068">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="152mm_PC_Gun_Outside" ID="{460CB686-C481-4A8E-9CE7-CBEC23C6A24A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+									<ObjectRef Name="152mm_PC_Gun_Outside" ID="{B3CC9A10-1472-49E4-AF1C-ACDF1E42CBDC}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{80AA6EED-118E-4F92-AE9E-C31471845CD3}" ShortID="356440558">
+							<PropertyList>
+								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="FadeInCurve" Type="int16" Value="6"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TINNITUS_EFFECTS" ID="{DE78F4F7-7BA7-4CA6-8A97-4ECB3C479371}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -343,6 +354,35 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="115_152mm_NPC_Gun" ID="{246D34FC-60C8-4E7E-BA47-A97282F33D94}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_HUGE_PC" ID="{4C5A7554-9D8E-471E-BF48-B073E3C420C4}">
+					<ChildrenList>
+						<Action Name="" ID="{FE6DE01C-A052-47CB-B2CE-85E8B182AADB}" ShortID="467118017">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_PC_Gun_Inside" ID="{31D16E5B-7DA9-4871-B4B3-EA1923D5B88B}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{FD9E4FE2-1AAD-425F-8A1C-BEDCFB7E3A21}" ShortID="373121118">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_PC_Gun_Outside" ID="{460CB686-C481-4A8E-9CE7-CBEC23C6A24A}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="RXD_HUGE_EXTRA_NPC" ID="{D41E1625-11B7-426F-A55E-36DBFB8A5F07}">
+					<ChildrenList>
+						<Action Name="" ID="{66669BA7-8E67-4EE7-9F0B-AB5E52A788B6}" ShortID="667726623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="152mm_NPC_Gun" ID="{9E9EE9CE-3D8B-41F7-9E21-6B5D435DEA78}" WorkUnitID="{DF3DA361-09F8-430D-814F-4080F28088DD}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
