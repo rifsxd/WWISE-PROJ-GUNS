@@ -170,7 +170,7 @@
 						</Action>
 						<Action Name="" ID="{80AA6EED-118E-4F92-AE9E-C31471845CD3}" ShortID="356440558">
 							<PropertyList>
-								<Property Name="Delay" Type="Real64" Value="5"/>
+								<Property Name="Delay" Type="Real64" Value="2"/>
 								<Property Name="FadeInCurve" Type="int16" Value="6"/>
 							</PropertyList>
 							<ReferenceList>

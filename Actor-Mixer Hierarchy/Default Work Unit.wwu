@@ -4627,6 +4627,13 @@
 							<ChildrenList>
 								<RandomSequenceContainer Name="TINNITUS_EFFECTS" ID="{DE78F4F7-7BA7-4CA6-8A97-4ECB3C479371}" ShortID="651707873">
 									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{BD757DDB-00C3-4C9D-8561-6C8AB66B93B1}"/>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>5</Value>
